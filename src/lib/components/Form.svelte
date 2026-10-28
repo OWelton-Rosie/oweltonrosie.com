@@ -1,6 +1,6 @@
 <script>
     import { goto } from '$app/navigation';
-    import { PUBLIC_FORMSPREE_URL } from '$env/static/public';
+    import { PUBLIC_FORMSPREE_URL } from '$app/env/public';
 
     let submitting = $state(false);
     let error = $state('');

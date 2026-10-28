@@ -1,12 +1,12 @@
 <script>
-    import Header from '$lib/components/Header.svelte';
+    import Header from '#lib/components/Header.svelte';
 
     import { faGithub, faStrava } from '@fortawesome/free-brands-svg-icons';
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 
-    import Footer from '$lib/components/Footer.svelte';
+    import Footer from '#lib/components/Footer.svelte';
     import Check from '@lucide/svelte/icons/check';
-    import Form from '$lib/components/Form.svelte';
+    import Form from '#lib/components/Form.svelte';
 
 
     let showCopied = $state(false);

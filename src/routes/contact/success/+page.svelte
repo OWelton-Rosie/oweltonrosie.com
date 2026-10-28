@@ -1,6 +1,6 @@
 <script>
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
+  import Header from '#lib/components/Header.svelte';
+  import Footer from '#lib/components/Footer.svelte';
   import Check from '@lucide/svelte/icons/check';
 </script>
 
@@ -16,7 +16,7 @@
     </div>
 
     <h1>Message sent!</h1>
-    <p><a href="/contact">Back to contact</a>. <a href="/">Back to home</a></p>
+    <p><a href="/">Back to home</a></p>
 </div>
 
 <Footer />

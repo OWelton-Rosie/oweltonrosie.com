@@ -3,8 +3,8 @@
 </svelte:head>
 
 <script>
-    import Header from '$lib/components/Writing_Header.svelte';
-    import Footer from '$lib/components/Footer.svelte';
+    import Header from '#lib/components/Writing_Header.svelte';
+    import Footer from '#lib/components/Footer.svelte';
 </script>
 
 <Header />

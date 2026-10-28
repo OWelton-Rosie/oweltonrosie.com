@@ -1,5 +1,5 @@
 <script>
-    import Footer from '$lib/components/Footer.svelte';
+    import Footer from '#lib/components/Footer.svelte';
 </script>
 
 <div class="hero-content">
